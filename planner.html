@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#17386b"><meta name="description" content="An interactive academic planner for Software Engineering student Ejuvweriemu Nelson."><title>Academic Planner | Ejuvweriemu Nelson — Student Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/styles.css"><script src="assets/app.js" defer></script>
+</head>
+<body data-page="planner">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><a class="brand" href="index.html" aria-label="Ejuvweriemu Nelson portfolio home"><span class="brand-mark">EN</span><span>Ejuvweriemu Nelson<span class="brand-dot">.</span></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button><nav class="site-nav" id="site-nav" aria-label="Main navigation"><a href="index.html" data-nav="home">Home</a><a href="about.html" data-nav="about">About</a><a href="projects.html" data-nav="projects">Projects</a><a href="planner.html" data-nav="planner">Planner</a><a class="nav-contact" href="contact.html" data-nav="contact">Contact <span aria-hidden="true">↗</span></a></nav></header>
+  <main id="main">
+    <section class="page-heading wrap planner-heading"><p class="eyebrow">MAKE SPACE TO THINK <span class="eyebrow-divider">/</span> ACADEMIC PLANNER</p><h1>One clear step <span class="serif-accent">at a time.</span></h1><p class="page-lede">Keep track of what’s coming up. Add a task, set a due date, and celebrate each one you finish.</p><span class="page-number">04 <i></i> 05</span></section>
+    <section class="planner-layout wrap">
+      <div class="planner-main"><div class="planner-topline"><div><p class="section-kicker">YOUR TASKS</p><h2>Study dashboard</h2></div><div class="task-summary"><span class="summary-big" id="task-count">0</span><span>tasks<br>to focus on</span></div></div>
+        <form class="task-form" id="task-form"><label class="sr-only" for="task-title">Task name</label><input id="task-title" name="title" type="text" placeholder="What do you need to do?" maxlength="100" required><label class="sr-only" for="task-course">Course or category</label><input id="task-course" name="course" type="text" placeholder="Course / category" maxlength="40"><label class="sr-only" for="task-date">Due date</label><input id="task-date" name="dueDate" type="date"><button class="button button-primary add-task" type="submit"><span aria-hidden="true">＋</span> Add task</button></form>
+        <div class="task-toolbar"><div class="filter-tabs" role="group" aria-label="Filter tasks"><button class="filter-button is-selected" type="button" data-filter="all" aria-pressed="true">All</button><button class="filter-button" type="button" data-filter="active" aria-pressed="false">To do</button><button class="filter-button" type="button" data-filter="completed" aria-pressed="false">Completed</button></div><button class="clear-completed" id="clear-completed" type="button">Clear completed</button></div>
+        <ul class="task-list" id="task-list" aria-live="polite" aria-label="Academic tasks"></ul><div class="empty-state" id="empty-state"><span class="empty-icon">✳</span><h3>You’ve got a fresh page.</h3><p>Add a task above and give your next study session a starting point.</p></div>
+        <p class="planner-storage"><span class="storage-dot"></span> Your tasks are saved in this browser on this device.</p>
+      </div>
+      <aside class="planner-aside"><div class="aside-card"><span class="aside-icon">✳</span><p class="section-kicker">A GENTLE REMINDER</p><h3>Progress is made one small step at a time.</h3><p>Break a big assignment into smaller tasks, then focus on the next one.</p><a class="text-link" href="about.html">See what I’m learning <span aria-hidden="true">→</span></a></div><div class="aside-note"><span class="note-rule"></span><p>“It always seems impossible until it’s done.”</p><span class="quote-byline">A reminder for busy weeks</span></div></aside>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand footer-brand" href="index.html"><span class="brand-mark">EN</span><span>Ejuvweriemu Nelson<span class="brand-dot">.</span></span></a><p>Learning, leading, building, and growing.</p><span class="footer-copy">© <span data-year>2026</span> Ejuvweriemu Nelson</span></div></footer>
+</body>
+</html>
